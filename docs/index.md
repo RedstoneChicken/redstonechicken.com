@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: RedstoneChicken.com
-  text: Vite & Vue powered static site generator.
+  text: wowie.
   tagline: Simple, powerful, and performant. Meet the modern SSG framework you've always wanted.
   actions:
     - theme: brand

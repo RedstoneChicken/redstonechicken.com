@@ -8,18 +8,18 @@ export default defineConfig({
 
   themeConfig: {
     nav: [
-      { text: 'Example', link: '/example' },
+      { text: 'Home', link: '/index' },
+      { text: 'Wiki example', link: '/example' },
 
-      // {
-      //   text: 'Dropdown Menu',
-      //   items: [
-      //     { text: 'Item A', link: '/item-1' },
-      //     { text: 'Item B', link: '/item-2' },
-      //     { text: 'Item C', link: '/item-3' },
-      //   ],
-      // },
-
-      // ...
+       {
+         text: 'Dropdown Menu',
+         items: [
+           { text: 'Item A', link: '/item-1' },
+           { text: 'Item B', link: '/item-2' },
+           { text: 'Item C', link: '/item-3' },
+         ],
+       },
+       
     ],
 
     sidebar: [
