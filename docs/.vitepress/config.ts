@@ -7,6 +7,10 @@ export default defineConfig({
   description: 'The official website for Redstone Chicken.',
 
   themeConfig: {
+    footer: {
+      message: 'Released under the MIT license.',
+      copyright: `Copyright © ${new Date().getFullYear()} Redstone Chicken.`
+    },
     nav: [
       { text: 'Home', link: '/index' },
       { text: 'Wiki Example', link: '/example' },

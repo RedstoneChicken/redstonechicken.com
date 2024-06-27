@@ -8,7 +8,8 @@
     --vp-nav-screen-bg-color: var(--vp-c-bg);
     --vp-sidebar-bg-color: var(--vp-c-bg-alt);
     --vp-backdrop-bg-color: rgba(0, 0, 0, 0.6);
-  }
+    --vp-nav-bg-color: rgba(27, 27, 31, 1)
+  };
   @media (min-width: 640px) {
     .name,
     .text {
