@@ -9,16 +9,23 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/index' },
-      { text: 'Wiki example', link: '/example' },
-
+      { text: 'Wiki Example', link: '/example' },
        {
-         text: 'Dropdown Menu',
+         text: 'Texture Packs',
          items: [
            { text: 'Item A', link: '/item-1' },
            { text: 'Item B', link: '/item-2' },
            { text: 'Item C', link: '/item-3' },
          ],
        },
+       {
+        text: 'Addons',
+        items: [
+          { text: 'Item A', link: '/item-1' },
+          { text: 'Item B', link: '/item-2' },
+          { text: 'Item C', link: '/item-3' },
+        ],
+      },
        
     ],
 
