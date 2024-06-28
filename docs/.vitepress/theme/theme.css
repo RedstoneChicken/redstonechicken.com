@@ -6,9 +6,7 @@
     --vp-nav-bg-color: rgba(27,27,31,0.7);
     --vp-local-search-bg: rgba(27,27,31,0.7);
   };
-h1 .name{ 
-  max-width: 614px !important;
-}
+
 .VPNav {
   -webkit-backdrop-filter: saturate(50%) blur(8px);
   backdrop-filter: saturate(50%) blur(8px);
