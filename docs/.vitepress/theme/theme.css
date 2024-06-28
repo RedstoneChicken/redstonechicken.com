@@ -3,18 +3,28 @@
     --vp-c-brand-2: var(--vp-c-red-2);
     --vp-c-brand-3: var(--vp-c-red-3);
     --vp-c-brand-soft: var(--vp-c-red-soft);
-    --vp-local-nav-bg-color: var(--vp-c-bg);
-    --vp-nav-bg-color: var(--vp-c-bg);
-    --vp-nav-screen-bg-color: var(--vp-c-bg);
-    --vp-sidebar-bg-color: var(--vp-c-bg-alt);
-    --vp-backdrop-bg-color: rgba(0, 0, 0, 0.6);
-    --vp-nav-bg-color: rgba(27, 27, 31, 1)
+    --vp-nav-bg-color: rgba(27,27,31,0.7);
+    --vp-local-search-bg: rgba(27,27,31,0.7);
   };
-  @media (min-width: 640px) {
-    .name,
-    .text {
-      max-width: 614px;
-      line-height: 56px;
-      font-size: 48px;
-    }
+h1 .name{ 
+  max-width: 614px !important;
+}
+.VPNav {
+  -webkit-backdrop-filter: saturate(50%) blur(8px);
+  backdrop-filter: saturate(50%) blur(8px);
   }
+
+.VPNavBarSearch {
+  flex-grow: 0;
+  float: right;
+  }
+.shell {
+    -webkit-backdrop-filter: saturate(50%) blur(8px) !important;
+    backdrop-filter: saturate(50%) blur(8px) !important;
+}
+.VPFooter {
+  border-top: 1px solid rgba(84, 84, 84, .48) !important;
+}
+.divider {
+    visibility: hidden;
+}

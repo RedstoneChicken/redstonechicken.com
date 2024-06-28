@@ -9,7 +9,7 @@ hero:
   text: wowie.
   tagline: Meet the modern SSG framework you've always wanted.
   image:
-      src: /logo.png
+      src: /logo.png  
       alt: Logo
   actions:
     - theme: brand
