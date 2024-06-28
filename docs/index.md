@@ -7,7 +7,7 @@ description: 'A flexible and language-agnostic addon-compiler for the Bedrock Ed
 hero:
   name: RedstoneChicken.com
   text: wowie.
-  tagline: Meet the modern SSG framework you've always wanted.
+  tagline: textwowieiekaosdjanted.
   image:
       src: /logo.png  
       alt: Logo

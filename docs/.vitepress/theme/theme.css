@@ -5,13 +5,17 @@
     --vp-c-brand-soft: var(--vp-c-red-soft);
     --vp-nav-bg-color: rgba(27,27,31,0.7);
     --vp-local-search-bg: rgba(27,27,31,0.7);
-  };
-
-.VPNav {
+}
+.name, .text {
+  max-width: 614px !important;
+}
+.VPHero.has-image .main {
+ max-width: 614px !important;
+}
+.VPNavBar  {
   -webkit-backdrop-filter: saturate(50%) blur(8px);
   backdrop-filter: saturate(50%) blur(8px);
   }
-
 .VPNavBarSearch {
   flex-grow: 0;
   float: right;
